@@ -1,0 +1,50 @@
+:root {
+    --bs-pink: #ee0979;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-orange: #ff6a00;
+    --bs-yellow: #ffc107;
+    --bs-link-hover-color: #be0761;
+}
+
+.navbar-brand,
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #fff !important;
+}
+header {
+    background:linear-gradient(var(--bs-orange) 0% , var(--bs-pink) 100%);
+    height: 100vh;
+}
+.caption h2{
+    font-size: 10vh;
+    color:var(--bs-white)
+}
+.caption h3{
+    font-size: 9vh;
+    color:var(--bs-white)
+}
+.caption button{
+    height: 10vh;
+    width: 15vw;
+    border: 1px solid var(--bs-pink);
+    background-color: var(--bs-pink);
+    font-size: 3vh;
+}
+.caption button:hover{
+    background-color:var(--bs-link-hover-color) !important;
+}
+
+.about h2{
+    font-size: 12vh;
+}
+.about img{
+height: 70vh;
+}
+.footer{
+    background-color:var(--bs-black);
+    color:var(--bs-white);
+    height: 15vh;
+}
+.footer h2{
+   font-size:3vh;
+}
